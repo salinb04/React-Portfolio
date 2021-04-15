@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ec381a0a.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.5d81a372.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5d81a372.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.72e2eb81.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.72e2eb81.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e0df7320.chunk.js": "/React-Portfolio/static/js/2.e0df7320.chunk.js",
+    "static/js/2.e0df7320.chunk.js.map": "/React-Portfolio/static/js/2.e0df7320.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ec381a0a.chunk.css.map": "/React-Portfolio/static/css/main.ec381a0a.chunk.css.map",
+    "static/js/2.e0df7320.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e0df7320.chunk.js.LICENSE.txt",
+    "static/media/headshot.3e5c291d.png": "/React-Portfolio/static/media/headshot.3e5c291d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72e2eb81.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e0df7320.chunk.js",
+    "static/css/main.ec381a0a.chunk.css",
+    "static/js/main.5d81a372.chunk.js"
+  ]
+}
