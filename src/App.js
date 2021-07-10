@@ -8,15 +8,17 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
+    <div>
     <Router>
       <NavigationWithRouter />
       <Switch>
-        <Route exact path="/" component={About} />
+        <Route exact path="/React-Portfolio/About" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
-      <Footer />
     </Router>
+    <Footer />
+    </div>
   );
 }
 
