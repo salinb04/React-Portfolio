@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.portfolio-jumbotron {
+  margin-top: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 24px;
+  border-radius: 8px;
+  background-color: ghostwhite;
+}
+
+.portfolioContainer {
+  margin: auto;
+  margin-right: 5%;
+  display: block;
+}
+
+.portfolioHeader {
+  text-align: Center;
+  color: cadetblue;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  font-family: Roboto;
+}
+
+.cardsContainer {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+
+.portfolio-img {
+  width: 250px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  display: block;
+}
+
+.btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.portfolioCard {
+  margin: auto;
+  margin-top: 40px;
+  display: block;
+}
+
+.icon {
+  display:inline-block;
+  color:cadetblue;
+  width: 18px;
+  height: 18px;
+}
+
+.portfolioLink {
+  color: cadetblue;
+  margin-left: 3px;
+}
+
+.mainButton, .mainButton:hover {
+  text-decoration: none;
+}
+
+.viewAppBtn {
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  border: 0px;
+  border-radius: 0.25rem;
+  min-width: 64px;
+  background-color: cadetblue;
+  display: block;
+  color: white;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.viewGithubBtn {
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 6px 16px;
+  border: 0px;
+  border-radius: 0.25rem;
+  min-width: 64px;
+  background-color: cadetblue;
+  display: block;
+  color: white;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.viewAppBtn:hover, .viewGithubBtn:hover {
+  background-color: rgb(74, 134, 136);
+}
+
+.viewAppBtn:focus, .viewGithubBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  background-color: rgb(74, 134, 136);
+}
+
+.card-text {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolioWrapper .portfolio-jumbotron {
+    width: 707px;
+    height: 722px;
+    margin: auto;
+    display: block;
+    margin-top: 6%;
+  }
+
+  .portfolioContainer {
+    width: 600px;
+    margin-left: 44px;
+    display: block;
+  }
+
+  .portfolioBtn {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolioBtn {
+    margin-bottom: 70px;
+  }
+}
+
+
+
+
+
+

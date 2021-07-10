@@ -1,0 +1,24 @@
+.footerMain {
+  height: 80px;
+  margin-top: 100px;
+  background-color: darkgrey;
+  text-align: center;
+}
+
+.footerText {
+  padding-top: 30px;
+  color: white;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .footerMain {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footerMain {
+    margin-top: 140px;
+  }
+}

@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+.about-jumbotron {
+  margin-top: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 24px;
+  border-radius: 8px;
+  background: ghostwhite;
+}
+
+.aboutMeContainer {
+  margin: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: block;
+}
+
+.aboutMeHeader {
+  text-align: Center;
+  color: cadetblue;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  font-family: Roboto;
+}
+
+.headshot {
+  width: 180px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  display: block;
+}
+
+.mainButton, .mainButton:hover {
+  text-decoration: none;
+}
+
+.viewPortfolioBtn {
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 6px 16px;
+  border: 0px;
+  border-radius: 0.25rem;
+  min-width: 64px;
+  background-color: cadetblue;
+  display: block;
+  color: white;
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.viewPortfolioBtn:hover {
+  background-color: rgb(74, 134, 136);
+}
+
+.viewPortfolioBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  background-color: rgb(74, 134, 136);
+}
+
+.aboutTextMain {
+  font-size: 24px;
+  font-family: Roboto;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.textContainer {
+  padding-bottom: 18px;
+}
+
+.aboutText {
+  font-size: 18px;
+  font-family: Roboto;
+  text-align: left;
+}
+
+.textLink {
+  color: cadetblue;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: underline solid transparent;
+  transition: text-decoration 0.4s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.textLink:hover {
+  text-decoration: underline solid Currentcolor;
+  color: rgb(74, 134, 136);
+}
+
+.textLink:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  color: rgb(74, 134, 136);
+}
+
+@media screen and (min-width: 768px) {
+  .about-jumbotron {
+    display: block;
+    margin: auto;
+    width: 707px;
+    margin-top: 6%;
+  }
+
+  .aboutMeContainer {
+    width: 600px;
+    margin-left: 44px;
+    display: block;
+  }
+  
+  .headshot {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .viewPortfolioBtn {
+    margin-bottom: 60px;
+  }
+
+  .aboutTextMain {
+    margin-bottom: 30px;
+  }
+
+  .textContainer {
+    padding-bottom: 24px;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .headshot {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .viewPortfolioBtn {
+    margin-bottom: 70px;
+  }
+
+  .aboutTextMain {
+    margin-bottom: 30px;
+  }
+
+  .textContainer {
+    padding-bottom: 60px;
+  }
+}
