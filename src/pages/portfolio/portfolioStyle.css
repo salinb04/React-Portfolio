@@ -31,11 +31,11 @@
   margin: auto;
   margin-top: 30px;
   margin-left: 5%;
-  margin-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .portfolio-img {
-  width: 250px;
+  width: 270px;
   height: auto;
   margin: auto;
   margin-bottom: 40px;
@@ -133,14 +133,46 @@
     display: block;
   }
 
+  .portfolio-img {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: block;
+  }
+
   .portfolioBtn {
     margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .portfolioWrapper .portfolio-jumbotron {
+    width: 707px;
+    height: 722px;
+    display:block;
+    margin: auto;
+    margin-top: 6%;
+  }
+
+  .portfolioContainer {
+    width: 600px;
+    display: block;
+    margin: auto;
+  }
+
+  .portfolio-img {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: block;
+  }
+
   .portfolioBtn {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 }
 

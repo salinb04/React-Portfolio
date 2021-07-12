@@ -4,6 +4,8 @@ import { TextField } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
 import resume from '../../assets/BenResume.pdf';
 import "./contact.css";
 
@@ -20,6 +22,19 @@ const useStyles = makeStyles((theme) => ({
 
 function Contact(){
   const classes = useStyles();
+  init("user_UEXhkayNmjmMUBTjT6AYk");
+
+  function sendEmail(event) {
+    event.preventDefault();
+    emailjs.sendForm('bens_ID', 'gmail_template', event.target, 'user_UEXhkayNmjmMUBTjT6AYk')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+    });
+    event.target.reset();
+  }
+
   return(
     <div className="contactWrapper">
     <div className="contact-jumbotron">
@@ -32,7 +47,7 @@ function Contact(){
                 <a className="contactLink" href="https://www.linkedin.com/in/benjamin-ben-m-salinaro-7020ba7b/" target="_blank"><FaLinkedinIn className="icon" id="linkedinIcon" /> LinkedIn</a>
                 <a className="contactLinkRight" href="https://github.com/salinb04" target="_blank"><AiFillGithub className="icon" /> Github</a>
                 <a className="contactLinkRow2" href= {resume} target="_blank">View Resume</a>
-              <form className={classes.root} id="contactForm" noValidate autoComplete="off">
+              <form className={classes.root} onSubmit={sendEmail} id="contactForm" noValidate autoComplete="off">
                 <div className="fieldsContainer">
                   <TextField
                     id="name"
@@ -41,6 +56,18 @@ function Contact(){
                     style={{ margin: 8 }}
                     fullWidth
                     margin="normal"
+                    type="text"
+                    name="name"
+                  />
+                  <TextField
+                    id="subject"
+                    label="Subject"
+                    placeholder="Please enter your subject here."
+                    style={{ margin: 8 }}
+                    fullWidth
+                    margin="normal"
+                    type="text"
+                    name="subject"
                   />
                   <TextField
                     id="email"
@@ -49,6 +76,8 @@ function Contact(){
                     placeholder="Please enter your email here."
                     fullWidth
                     margin="normal"
+                    type="email"
+                    name="email"
                   />
                   <TextField
                     id="message"
@@ -58,9 +87,10 @@ function Contact(){
                     multiline
                     fullWidth
                     rows={8}
+                    name="message"
                   />
                 </div>
-                <button type="submit" class="submitBtn">Submit</button>
+                <button type="submit" value="Send" class="submitBtn">Submit</button>
               </form>
             </div>
           </div>

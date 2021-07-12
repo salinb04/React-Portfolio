@@ -12,7 +12,7 @@ function App() {
     <Router>
       <NavigationWithRouter />
       <Switch>
-        <Route exact path="/React-Portfolio/About" component={About} />
+        <Route path="/" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Switch>

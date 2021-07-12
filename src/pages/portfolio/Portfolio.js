@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import Card from 'react-bootstrap/Card';
-import weatherImg from '../../assets/weatherImage.png';
 import newsImg from '../../assets/my-news-app-img.png';
 import booksImg from '../../assets/books-image.png';
 import pupsterImg from '../../assets/pupster-img.png';
@@ -33,7 +32,7 @@ function Portfolio() {
               </Card.Body>
             </Card>
             <Card className="portfolioCard">
-              <img className="headshot" alt="my headshot" src={booksImg}/>
+              <img className="portfolio-img" alt="Google Books App screenshot" src={booksImg}/>
               <Card.Body>
                 <Card.Title>Google Books Search App</Card.Title>
                 <Card.Text>This is an app that allows users to search for books using the Google Books API. Users 
@@ -47,7 +46,7 @@ function Portfolio() {
               </Card.Body>
             </Card>
             <Card className="portfolioCard">
-              <img className="headshot" alt="my headshot" src={pupsterImg}/>
+              <img className="portfolio-img" alt="Pupster App screenshot" src={pupsterImg}/>
               <Card.Body>
                 <Card.Title>Pupster</Card.Title>
                 <Card.Text>
@@ -78,19 +77,6 @@ function Portfolio() {
               </Card.Body>
             </Card> */}
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body" id="resume-github">
-          <h5 class="card-title">Resume and Github Link</h5>
-          <p class="card-text">To view more information about my experience, projects, and skills, my resume, LinkedIn
-          profile, email, phone number, and github profile link are available here.</p>
-          <a href="https://github.com/salinb04" target="_blank" class="btn btn-primary">View Github Profile</a>
-          <a href="./Assets/BenResume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
-          <a href="https://www.linkedin.com/in/benjamin-ben-m-salinaro-7020ba7b/" target="_blank"
-          class="btn btn-primary">View LinkedIn</a>
-          <a href="mailto:bensalinaro@gmail.com" class="btn btn-primary">Email Me</a>
-          <a href="tel:2143354878" class="btn btn-primary">Call Me At 214-335-4878</a>
         </div>
       </div>
     </div>
