@@ -16,7 +16,7 @@ function About() {
         </Link>
         <div className="textContainer">
           <p className="aboutTextMain">
-            My name is Ben Salinaro and I am a Full-Stack Web Developer with 2+ years of UX Design experience.
+            My name is Ben Salinaro and I am a Full-Stack Web Developer with 3 years of UX Design experience.
           </p>
           <p className="aboutText"> 
             I am upbeat and I love solving problems. I recently completed SMU's Full-Stack Web Developer 
