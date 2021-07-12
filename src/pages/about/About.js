@@ -24,7 +24,7 @@ function About() {
           </p>
           <p className="aboutText">
             After graduating from the University of Texas I worked at Imaginuity, a digital marketing 
-            agency, for 2.5 years as a UX Designer. I created many polished and interactive 
+            agency, for 3 years as a UX Designer. I created many polished and interactive 
             prototypes of websites for clients.
           </p>
           <p className="aboutText">
