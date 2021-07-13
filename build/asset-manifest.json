@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.86002435.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.187ffc59.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.187ffc59.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.72e2eb81.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.72e2eb81.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.cf722ca1.chunk.js": "/React-Portfolio/static/js/2.cf722ca1.chunk.js",
-    "static/js/2.cf722ca1.chunk.js.map": "/React-Portfolio/static/js/2.cf722ca1.chunk.js.map",
-    "index.html": "/React-Portfolio/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.86002435.chunk.css.map": "/React-Portfolio/static/css/main.86002435.chunk.css.map",
-    "static/js/2.cf722ca1.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.cf722ca1.chunk.js.LICENSE.txt",
-    "static/media/BenResume.49327a7f.pdf": "/React-Portfolio/static/media/BenResume.49327a7f.pdf",
-    "static/media/books-image.c9a5c921.png": "/React-Portfolio/static/media/books-image.c9a5c921.png",
-    "static/media/headshot.3e5c291d.png": "/React-Portfolio/static/media/headshot.3e5c291d.png",
-    "static/media/my-news-app-img.e642a5be.png": "/React-Portfolio/static/media/my-news-app-img.e642a5be.png",
-    "static/media/pupster-img.22c558c3.png": "/React-Portfolio/static/media/pupster-img.22c558c3.png"
+    "main.css": "/React-Portfolio/about/static/css/main.86002435.chunk.css",
+    "main.js": "/React-Portfolio/about/static/js/main.99c3027f.chunk.js",
+    "main.js.map": "/React-Portfolio/about/static/js/main.99c3027f.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/about/static/js/runtime-main.66855ec9.js",
+    "runtime-main.js.map": "/React-Portfolio/about/static/js/runtime-main.66855ec9.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/about/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.cf722ca1.chunk.js": "/React-Portfolio/about/static/js/2.cf722ca1.chunk.js",
+    "static/js/2.cf722ca1.chunk.js.map": "/React-Portfolio/about/static/js/2.cf722ca1.chunk.js.map",
+    "index.html": "/React-Portfolio/about/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/about/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.86002435.chunk.css.map": "/React-Portfolio/about/static/css/main.86002435.chunk.css.map",
+    "static/js/2.cf722ca1.chunk.js.LICENSE.txt": "/React-Portfolio/about/static/js/2.cf722ca1.chunk.js.LICENSE.txt",
+    "static/media/BenResume.49327a7f.pdf": "/React-Portfolio/about/static/media/BenResume.49327a7f.pdf",
+    "static/media/books-image.c9a5c921.png": "/React-Portfolio/about/static/media/books-image.c9a5c921.png",
+    "static/media/headshot.3e5c291d.png": "/React-Portfolio/about/static/media/headshot.3e5c291d.png",
+    "static/media/my-news-app-img.e642a5be.png": "/React-Portfolio/about/static/media/my-news-app-img.e642a5be.png",
+    "static/media/pupster-img.22c558c3.png": "/React-Portfolio/about/static/media/pupster-img.22c558c3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.72e2eb81.js",
+    "static/js/runtime-main.66855ec9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.cf722ca1.chunk.js",
     "static/css/main.86002435.chunk.css",
-    "static/js/main.187ffc59.chunk.js"
+    "static/js/main.99c3027f.chunk.js"
   ]
 }
