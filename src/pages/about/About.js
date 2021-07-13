@@ -34,7 +34,7 @@ function About() {
           </p>
           <p className="aboutText">
             Please navigate to the 
-            <Link to="/portfolio">
+            <Link to="/React-Portfolio/portfolio">
               <a className="textLink"> Portfolio </a>
             </Link>
             page to see examples of projects I've created, or send me 
