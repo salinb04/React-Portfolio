@@ -34,12 +34,12 @@ function About() {
           </p>
           <p className="aboutText">
             Please navigate to the 
-            <Link to="/portfolio">
+            <Link to="/React-Portfolio/portfolio">
               <a className="textLink"> Portfolio </a>
             </Link>
             page to see examples of projects I've created, or send me 
             an email from the 
-            <Link to="/contact">
+            <Link to="/React-Portfolio/contact">
               <a className="textLink"> Contact </a>
             </Link> 
             page if you would like further information. Thank you for your time!
