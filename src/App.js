@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavigationWithRouter />
       <Switch>
         <Route exact path="/React-Portfolio/" component={About} />
