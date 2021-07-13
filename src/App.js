@@ -13,8 +13,8 @@ function App() {
       <NavigationWithRouter />
       <Switch>
         <Route exact path="/React-Portfolio/" component={About} />
-        <Route exact path="/React-Portfolio/portfolio" component={Portfolio} />
-        <Route exact path="/React-Portfolio/contact" component={Contact} />
+        <Route exact path="/React-Portfolio/portfolio.js" component={Portfolio} />
+        <Route exact path="/React-Portfolio/contact.js" component={Contact} />
       </Switch>
     </Router>
     <Footer />
