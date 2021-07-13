@@ -17,7 +17,7 @@ function Navigation(props) {
         >
           <Nav.Link style={{font: "Roboto"}} eventKey="/React-Portfolio/" href="/React-Portfolio/">About</Nav.Link>
           <Nav.Link style={{font: "Roboto"}} eventKey="React-Portfolio/portfolio" href="React-Portfolio/portfolio">Portfolio</Nav.Link>
-          <Nav.Link style={{font: "Roboto"}} eventKey="React-Portfolio//contact" href="React-Portfolio//contact" >Contact</Nav.Link>
+          <Nav.Link style={{font: "Roboto"}} eventKey="/contact" href="/contact" >Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
