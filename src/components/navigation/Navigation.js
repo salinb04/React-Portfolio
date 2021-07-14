@@ -7,7 +7,7 @@ function Navigation(props) {
   const { location } = props
   return (
     <Navbar style={{background: "ghostwhite"}} expand="lg">
-      <Navbar.Brand style={{color: "cadetblue", font: "Roboto"}} href="/">Ben Salinaro</Navbar.Brand>
+      <Navbar.Brand style={{color: "cadetblue", font: "Roboto"}} href="/React-Portfolio/#/">Ben Salinaro</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
