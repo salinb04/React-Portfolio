@@ -23,6 +23,9 @@ function Portfolio() {
                   A news application that allows users to create an account and then select 
                   news categories based on what types of news they would like to see.
                 </Card.Text>
+                <Card.Text style={{fontWeight: "bold"}}>
+                  Instructions: Create an account and then log in with your credentials.
+                </Card.Text>
                 <a className="mainButton" href="https://blooming-everglades-84355.herokuapp.com/login" target="_blank">
                   <button className="viewAppBtn">View myNews App</button>
                 </a>
@@ -35,8 +38,10 @@ function Portfolio() {
               <img className="portfolio-img" alt="Google Books App screenshot" src={booksImg}/>
               <Card.Body>
                 <Card.Title>Google Books Search App</Card.Title>
-                <Card.Text>This is an app that allows users to search for books using the Google Books API. Users 
-                may also save books to a list and view their saved books later on.</Card.Text>
+                <Card.Text>
+                  This is an app that allows users to search for books using the Google Books API. Users 
+                  may also save books to a list and view their saved books later on.
+                </Card.Text>
                 <a className="mainButton" href="https://damp-anchorage-09325.herokuapp.com/search" target="_blank">
                   <button className="viewAppBtn">View Books App</button>
                 </a>
@@ -50,8 +55,8 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title>Pupster</Card.Title>
                 <Card.Text>
-                A dating app for pups that uses the Dog API! On the Search page users may like or dislike dogs, and there's a 20% chance a dog will like you back. 
-                The Discover page allows users to search dog images by breed.
+                  A dating app for pups that uses the Dog API! On the Search page users may like or dislike dogs, and there's a 20% chance a dog will like you back. 
+                  The Discover page allows users to search dog images by breed.
                 </Card.Text>
                 <a className="mainButton" href="https://salinb04.github.io/react-pupster/" target="_blank">
                   <button className="viewAppBtn">View Pupster App</button>
@@ -61,21 +66,6 @@ function Portfolio() {
                 </a>
               </Card.Body>
             </Card>
-            {/* <Card className="portfolioCard">
-              <img className="headshot" alt="my headshot" src={weatherImg}/>
-              <Card.Body>
-                <Card.Title>Weather App</Card.Title>
-                <Card.Text>
-                A weather application that allows users to search for the current weather and 5-day forecast for cities.
-                </Card.Text>
-                <a className="mainButton" href="https://salinb04.github.io/Weather-App/" target="_blank">
-                  <button className="viewAppBtn">View Weather App</button>
-                </a>
-                <a className="mainButton" href="https://github.com/salinb04/Weather-App" target="_blank">
-                  <button className="viewGithubBtn" href="https://salinb04.github.io/Weather-App/" target="_blank">View Github Repo</button>
-                </a>
-              </Card.Body>
-            </Card> */}
           </div>
         </div>
       </div>
