@@ -16,8 +16,8 @@ function Navigation(props) {
           onSelect={(selectedKey) => this.activeKey=`${selectedKey}`}
         >
           <Nav.Link style={{font: "Roboto"}} eventKey="/" href="/">About</Nav.Link>
-          <Nav.Link style={{font: "Roboto"}} eventKey="/#/Portfolio" href="/#/Portfolio">Portfolio</Nav.Link>
-          <Nav.Link style={{font: "Roboto"}} eventKey="/#/Contact" href="/#/Portfolio">Contact</Nav.Link>
+          <Nav.Link style={{font: "Roboto"}} eventKey="/#/Portfolio" href="/React-Portfolio/#/Portfolio">Portfolio</Nav.Link>
+          <Nav.Link style={{font: "Roboto"}} eventKey="/#/Contact" href="/React-Portfolio/#/Portfolio">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
