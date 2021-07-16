@@ -9,15 +9,15 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div>
-    <HashRouter>
-      <NavigationWithRouter />
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-        <Route exact path="/Contact" component={Contact} />
-      </Switch>
-    </HashRouter>
-    <Footer />
+      <HashRouter>
+        <NavigationWithRouter />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+        </Switch>
+      </HashRouter>
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
-import resume from '../../assets/BenResume.pdf';
+import resume from '../../assets/Ben_Resume.pdf';
 import "./contact.css";
 
 const useStyles = makeStyles((theme) => ({
