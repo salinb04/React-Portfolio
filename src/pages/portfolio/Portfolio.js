@@ -12,7 +12,7 @@ function Portfolio() {
     <div>
       <div className="portfolio-jumbotron">
         <div className="portfolioContainer">
-          <h1 className="portfolioHeader">Portfolio</h1>
+          <h1 className="portfolioHeader">Portfolioo</h1>
           <Dropdown.Divider></Dropdown.Divider>
           <div className="cardsContainer">
             <Card className="portfolioCard">
